@@ -45,12 +45,13 @@ a {
 }
 
 .profile-pic {
-    padding-bottom: 20px;
-    width: 30%;
-    border-radius: 9%;
-    display: block;
+    padding: 20px;
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 9%;
 
 }
 
@@ -69,11 +70,6 @@ a {
     box-sizing: initial;
 }
 
-.information-sections h2 {
-    /* display: inline-block; */
-    /* margin-inline: initial; */
-} 
-
 .about-me {
     background-color: rgba(252, 189, 218, 0.87);
     margin: 10px;
@@ -83,9 +79,7 @@ a {
     box-shadow:5px 5px 5px grey;
     border-radius: 5px;
     border-color: gray;
-    /* display: flex;
-    flex-grow: 5px; */
-    /* transition:initial */
+    
 }
 
 .work-stuff {
@@ -103,6 +97,10 @@ a {
     border-radius: 5%;
 }
 
+.img:hover {
+    background-color: palevioletred
+}
+
 .btn {
     position:relative;
     top: 50%;
@@ -111,16 +109,13 @@ a {
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
-    font-size: 16px;
+    /* font-size: 16px; */
     padding: 12px 24px;
-    border: none;
+    /* border: none; */
     cursor: pointer;
     border-radius: 5px;
 }
 
-/* .img:hover {
-    background-color: palevioletred
-} */
 
 .contact-info {
     margin: 10px;
