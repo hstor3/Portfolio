@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    overflow-wrap: break-word;
 }
 
 body {
@@ -50,72 +51,65 @@ a:hover {
 
 .profile-pic {
     padding: 20px;
-    width: 35%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     display: block;
     border-radius: 9%;
+    margin-top: 3%;
 
 }
 
-.information-sections {
+.stuff {
     display: inline-block;
     margin-inline: initial;
     padding: 2rem;
     color: var(--heliotrope);
     box-sizing: initial;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    margin-left: 3.5%;
+
 }
 
-.about-me {
+#about-me {
     background-color: rgba(252, 189, 218, 0.87);
-    margin: 10px;
-    border: 5px;
-    padding:20px;
-    box-shadow:5px 5px 5px grey;
-    border-radius: 5px;
-    border-color: gray;
     
 }
 
-.work-stuff {
+#work-stuff {
     background-color: rgb(145, 99, 13);
-    margin: 10px;
-    border: 5px;
-    padding:20px;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 5px;
 }
 
 .work-stuff p {
-    /* border-bottom: 15px; */
     margin-bottom: 20px;
 }
 
 .img {
-    width: 20%;
+    width: 30%;
     height: 50%;
     border-radius: 5%;
-    /* background-position-x: center; */
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
     
 }
 
 .img:hover {
     opacity: 0.8;
-    /* flex-grow: inherit 5px; */
-    /* flex-direction: column; */
-    /* flex-wrap:wrap-reverse; */
+    transform: scale(1.01);
 
 }
 
-.btn:hover {
-    /* color:lawngreen; */
+/* .btn:hover {
     opacity: 0.8;
-    /* width: 50% */
     
-}
+} */
 
-.btn {
+/* .btn {
     position:static;
     top: 50%;
     left: 50%;
@@ -123,12 +117,11 @@ a:hover {
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
-    /* font-size: 16px; */
     padding: 12px 24px;
     border: 0px;
     cursor: pointer;
     border-radius: 5px;
-}
+} */
 
 
 .contact-info {
