@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 3vw;
     font-weight:bolder;
     text-align:justify;
 }
@@ -29,7 +29,7 @@ header h1 {
 header div ul {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 20px;
+    font-size: 1vw;
     list-style-type: none;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ header div ul {
 .info-selectors button {
     background-color: transparent;
     border: transparent;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 a {
@@ -51,7 +51,7 @@ a:hover {
 
 .profile-pic {
     padding: 20px;
-    width: 40%;
+    width: 40vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -169,7 +169,7 @@ a:hover {
 
 .contact-info {
     margin: 10px;
-    border: 5px;
+    border: 10px;
     padding: 20px;
 }
 
