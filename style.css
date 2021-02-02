@@ -58,6 +58,7 @@ a:hover {
     margin-top: 2%;
     display: block;
     border-radius: 5vw;
+    max-width: 100%;
 
 }
 
@@ -109,6 +110,7 @@ a:hover {
     /* flex: 33%; */
     /* overflow: hidden; */
     /* background: none; */
+    max-width: 100%;
 }
 
 .img:hover {
@@ -171,13 +173,14 @@ a:hover {
     /* font-size: 3vw; */
     /* font-weight:bolder; */
     /* text-align:justify; */
+    /* padding-left: 5vw; */
+    /* border-left: 5vw; */
 }
 
 .contact-info p {
     /* float: left; */
-    /* padding-left: 5vw; */
-    /* border-left: 5vw; */
-    /* font-size: 3vw; */
+    font-size: 1.5vw;
+    /* padding-left: 1vw; */
     /* font-weight:bolder; */
     /* text-align:center; */
 
@@ -186,7 +189,10 @@ a:hover {
 footer {
     background-color: rgb(9, 63, 40);
     color: rgb(224, 219, 209);
-    /* font-size: 3vw; */
+    padding-left: 2vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    /* font-size: 1.5vw; */
     /* font-weight:bolder; */
-    /* text-align:justify; */
+    /* text-align: left; */
 }
