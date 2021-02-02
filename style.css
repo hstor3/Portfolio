@@ -37,12 +37,9 @@ button {
     background-color: transparent;
     border: transparent;
     font-size: 20px;
-    /* overflow-y: scroll; */
-    /* scroll-behavior: smooth; */
 }
 
 a {
-    /* scroll-behavior: [auto | smooth]; */
     text-decoration: none;
     color:rgb(240, 232, 220);
 }
@@ -63,8 +60,8 @@ a:hover {
 }
 
 .information-sections {
-    /* display: inline-block;
-    margin-inline: initial; */
+    display: inline-block;
+    margin-inline: initial;
     padding: 2rem;
     color: var(--heliotrope);
     box-sizing: initial;
@@ -75,7 +72,6 @@ a:hover {
     margin: 10px;
     border: 5px;
     padding:20px;
-    /* width: 20%; */
     box-shadow:5px 5px 5px grey;
     border-radius: 5px;
     border-color: gray;
@@ -89,6 +85,11 @@ a:hover {
     padding:20px;
     box-shadow: 5px 5px 5px grey;
     border-radius: 5px;
+}
+
+.work-stuff p {
+    /* border-bottom: 15px; */
+    margin-bottom: 20px;
 }
 
 .img {
@@ -110,6 +111,7 @@ a:hover {
 .btn:hover {
     /* color:lawngreen; */
     opacity: 0.8;
+    /* width: 50% */
     
 }
 
@@ -123,7 +125,7 @@ a:hover {
     color: white;
     /* font-size: 16px; */
     padding: 12px 24px;
-    /* border: none; */
+    border: 0px;
     cursor: pointer;
     border-radius: 5px;
 }
