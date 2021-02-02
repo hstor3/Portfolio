@@ -34,7 +34,7 @@ header div ul {
     text-decoration: none;
 }
 
-button {
+.info-selectors button {
     background-color: transparent;
     border: transparent;
     font-size: 20px;
@@ -61,67 +61,110 @@ a:hover {
 
 }
 
-.stuff {
-    display: inline-block;
-    margin-inline: initial;
-    padding: 2rem;
-    color: var(--heliotrope);
+#about-me {
+    background-color: rgba(252, 189, 218, 0.87);
     box-sizing: initial;
     box-shadow: 5px 5px 5px grey;
     border-radius: 5px;
-    margin: 10px;
+    margin: auto;
     padding: 20px;
     width: 90%;
-    margin-left: 3.5%;
+    position: relative;
+    margin-bottom: 10px;
+    
 
-}
-
-#about-me {
-    background-color: rgba(252, 189, 218, 0.87);
     
 }
 
 #work-stuff {
     background-color: rgb(145, 99, 13);
-}
+    box-sizing: initial;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    position: relative;
+    margin-bottom: 20px;
+    /* display: inline-block; */
+    /* margin-inline: initial; */
+    /* padding: 2rem; */
+    /* color: var(--heliotrope); */
+    /* margin-left: 3.5%; */
+    /* background-color: transparent; */
+    /* display: flex; */
+    /* display:table; */
+} 
 
-.work-stuff p {
+#work-stuff p {
     margin-bottom: 20px;
 }
 
 .img {
-    width: 30%;
+    margin: auto;
+    width: 50%;
     height: 50%;
-    border-radius: 5%;
-    /* margin-left: 20%; */
-    /* margin-right: 20%; */
-    
+    border-radius: 2%;
+    position:relative;
+    /* cursor: pointer; */
+    /* border: 0px; */
+    /* float: left; */
+    /* flex: 33%; */
+    /* overflow: hidden; */
+    /* background: none; */
 }
 
 .img:hover {
     opacity: 0.8;
     transform: scale(1.01);
-
+    cursor: pointer;
 }
 
-/* .btn:hover {
-    opacity: 0.8;
-    
-} */
+#work-stuff button {
+    background-color: transparent;
+    border-radius: 3px;
+    color:transparent;
+    outline: none;
+    margin: auto;
+    border: 10px;
+    width: 40%;
+    /* padding: 12px 24px; */
+    /* position:initial; */
+    /* overflow: hidden; */
+    /* border: none; */
+}
 
-/* .btn {
-    position:static;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    padding: 12px 24px;
-    border: 0px;
-    cursor: pointer;
-    border-radius: 5px;
-} */
+.flowergarden { 
+    /* float: left; */
+    /* width: 45%; */
+    /* background-color:  rgb(145, 99, 13); */
+    /* overflow: hidden; */
+    /* border:none; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+}
+
+.skilift img {
+    /* width: 50%; */
+    /* float: left; */
+    /* display:inline-block; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* .triangles { */
+    /* float: left; */
+    /* width: 45%; */
+}
+
+/* .maroonbells { */
+    /* float:left; */
+    /* width: 45%; */
+/* } */
+
+
+
 
 
 .contact-info {
