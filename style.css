@@ -33,7 +33,7 @@ header h1 {
     padding-bottom: 2vw;
     padding-top: 2vw;
     /* text-align: center; */
-    font-size: 230%;
+    font-size: 200%;
 }
 
 /* list of page sections */
@@ -46,7 +46,7 @@ header div ul {
     /* padding-right: 2vw; */
     /* padding-bottom: 2vw; */
     /* padding-top: 2vw; */
-    font-size: 100%;
+    font-size: 95%;
 }
 
 /* visual button */
