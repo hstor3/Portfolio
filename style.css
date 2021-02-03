@@ -22,7 +22,9 @@ header {
 
 /* name on top of screen */
 header h1 {
-    font-size: 3vw;
+    /* font-size: 3vw; */
+    /* font-size: 5vw; */
+    font-size: xx-large;
     font-weight:bolder;
     text-align:justify;
 }
@@ -31,7 +33,7 @@ header h1 {
 header div ul {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 3%;
+    /* font-size: 3%; */
     list-style-type: none;
     text-decoration: none;
 }
@@ -40,7 +42,8 @@ header div ul {
 .info-selectors button {
     background-color: transparent;
     border: transparent;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size:inherit;
     /* text-decoration: none; */
     /* color:rgb(240, 232, 220) */
 }
@@ -197,7 +200,8 @@ a:hover {
 }
 
 footer {
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size: inherit;
     background-color: rgb(9, 63, 40);
     color: rgb(224, 219, 209);
     padding-left: 2vw;
