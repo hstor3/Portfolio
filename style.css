@@ -4,9 +4,7 @@
     margin: 0;
     scroll-behavior: smooth;
     overflow-wrap: break-word;
-    /* font-family: Arial, Helvetica, sans-serif */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    /* font-family: 'Courier New', Courier, monospace */
 }
 
 body {
@@ -25,16 +23,10 @@ header {
 
 /* name on top of screen */
 header h1 {
-    /* font-size: 3vw; */
-    /* font-size: 5vw; */
-    /* font-size: xx-large; */
-    /* font-weight:bolder; */
     text-align:justify;
-    /* font-size: inherit; */
     margin: auto;
     padding: 20px;
     width: 85vw;
-    /* position: relative; */
     margin-bottom: 10px;
     float: left;
 
@@ -44,7 +36,6 @@ header h1 {
 header div ul {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    /* font-size: 3%; */
     list-style-type: none;
     text-decoration: none;
 }
@@ -55,8 +46,6 @@ header div ul {
     border: transparent;
     /* font-size: 1.5vw; */
     font-size:inherit;
-    /* text-decoration: none; */
-    /* color:rgb(240, 232, 220) */
     
 }
 
@@ -72,7 +61,6 @@ a:hover {
 
 .profile-pic {
     padding: 5px;
-    /* width: 40vw; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
@@ -111,14 +99,6 @@ a:hover {
     width: 85vw;
     position: relative;
     margin-bottom: 20px;
-    /* display: inline-block; */
-    /* margin-inline: initial; */
-    /* padding: 2rem; */
-    /* color: var(--heliotrope); */
-    /* margin-left: 3.5%; */
-    /* background-color: transparent; */
-    /* display:table; */
-    /* border: 10px; */
 } 
 
 #work-stuff h2 {
@@ -138,33 +118,12 @@ a:hover {
 
 /* images within the work section */
 .img {
-    /* display: flex; */
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: -1rem;
     margin-right: -1rem;
-    /* margin: auto; */
-    /* width: 50%; */
-    /* height: 50%; */
     border-radius: 2%;
-    /* position:relative; */
-    /* cursor: pointer; */
-    /* border: 0px; */
-    /* float: left; */
-    /* flex: 33%; */
-    /* overflow: hidden; */
-    /* background: none; */
-    /* float:left; */
-    /* flex-direction: row; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* position:relative */
     max-width: 100%;
-    /* width: 50%; */
-    /* height: 50%; */
-    /* float:left; */
-    /* border-style: solid; */
-
 }
 
 .img:hover {
@@ -184,31 +143,9 @@ a:hover {
     width: 40%;
     margin-right: auto;
     margin-left: auto;
-    /* padding: 12px 24px; */
-    /* overflow: hidden; */
-    /* border: none; */
-    /* display:table */
-    /* display:block */
-    /* width:66.67%; */
-    /* float:right; */
-    /* min-height:1000px; */
-    /* height:100%; */
-    /* position: relative; */
     display: flex;
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    /* margin-left: -1.5rem; */
-    /* margin-right: -1.5rem; */
     justify-content: space-around;
     
-}
-
-.skilift img {
-    /* width: 50%; */
-    /* float: left; */
-    /* display:inline-block; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 /* contains contact info */
