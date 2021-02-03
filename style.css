@@ -23,7 +23,7 @@ header {
 
 /* name on top of screen */
 header h1 {
-    text-align:justify;
+    /* text-align: left; */
     margin: auto;
     padding: 20px;
     width: 85vw;
