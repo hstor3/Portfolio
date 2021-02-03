@@ -24,9 +24,15 @@ header {
 header h1 {
     /* font-size: 3vw; */
     /* font-size: 5vw; */
-    font-size: xx-large;
-    font-weight:bolder;
+    /* font-size: xx-large; */
+    /* font-weight:bolder; */
     text-align:justify;
+    /* font-size: inherit; */
+    margin: auto;
+    padding: 20px;
+    width: 85vw;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 /* list of page sections */
@@ -82,10 +88,12 @@ a:hover {
     width: 85vw;
     position: relative;
     margin-bottom: 10px;
+    border-style: inset;
 }
 
 /* the brown section */
 #work-stuff {
+    border-style: inset;
     background-color: rgb(145, 99, 13);
     box-sizing: initial;
     box-shadow: 5px 5px 5px grey;
@@ -101,29 +109,53 @@ a:hover {
     /* color: var(--heliotrope); */
     /* margin-left: 3.5%; */
     /* background-color: transparent; */
-    /* display: flex; */
     /* display:table; */
+    /* border: 10px; */
 } 
+
+#work-stuff h2 {
+    text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        padding: 3%
+    }
 
 /* text description of my projects */
 #work-stuff p {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* images within the work section */
 .img {
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    border-radius: 2%;
-    position:relative;
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    /* margin: auto; */
+    /* width: 50%; */
+    /* height: 50%; */
+    /* border-radius: 2%; */
+    /* position:relative; */
     /* cursor: pointer; */
     /* border: 0px; */
     /* float: left; */
     /* flex: 33%; */
     /* overflow: hidden; */
     /* background: none; */
+    /* float:left; */
+    /* flex-direction: row; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* position:relative */
     max-width: 100%;
+    /* width: 50%; */
+    /* height: 50%; */
+    /* float:left; */
+
 }
 
 .img:hover {
@@ -141,21 +173,25 @@ a:hover {
     margin: auto;
     border: 10px;
     width: 40%;
+    margin-right: auto;
+    margin-left: auto;
     /* padding: 12px 24px; */
-    /* position:initial; */
     /* overflow: hidden; */
     /* border: none; */
-}
-
-.flowergarden { 
-    /* float: left; */
-    /* width: 45%; */
-    /* background-color:  rgb(145, 99, 13); */
-    /* overflow: hidden; */
-    /* border:none; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* display: flex; */
+    /* display:table */
+    /* display:block */
+    /* width:66.67%; */
+    /* float:right; */
+    /* min-height:1000px; */
+    /* height:100%; */
+    /* position: relative; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* margin-left: -1.5rem; */
+    /* margin-right: -1.5rem; */
+    justify-content: space-around;
+    
 }
 
 .skilift img {
@@ -166,48 +202,12 @@ a:hover {
     /* align-items: center; */
 }
 
-/* .triangles { */
-    /* float: left; */
-    /* width: 45%; */
-}
-
-/* .maroonbells { */
-    /* float:left; */
-    /* width: 45%; */
-/* } */
-
-
-
-
-
-.contact-info {
-    /* margin: 10px; */
-    /* border: 10px; */
-    /* padding: 20px; */
-    /* font-size: 3vw; */
-    /* font-weight:bolder; */
-    /* text-align:justify; */
-    /* padding-left: 5vw; */
-    /* border-left: 5vw; */
-}
-
-.contact-info p {
-    /* float: left; */
-    /* padding-left: 1vw; */
-    /* font-weight:bolder; */
-    /* text-align:center; */
-    
-}
-
+/* contains contact info */
 footer {
-    /* font-size: 1.5vw; */
     font-size: inherit;
     background-color: rgb(9, 63, 40);
     color: rgb(224, 219, 209);
     padding-left: 2vw;
     padding-bottom: 2vw;
     padding-top: 2vw;
-    /* font-size: 1.5vw; */
-    /* font-weight:bolder; */
-    /* text-align: left; */
 }
