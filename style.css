@@ -19,6 +19,7 @@ header {
     /* margin-inline:initial; */
     width: 100%;
     /* text-decoration: none; */
+    
 }
 
 /* name on top of screen */
@@ -31,7 +32,7 @@ header h1 {
     float: left;
     /* padding-left: 2vw; */
     padding-bottom: 2vw;
-    padding-top: 2vw;
+    padding-top: 4vw;
     /* text-align: center; */
     font-size: 200%;
 }
@@ -72,7 +73,7 @@ a:hover {
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     margin-top: 2%;
     display: block;
     border-radius: 5vw;
@@ -107,7 +108,7 @@ a:hover {
     padding: 20px;
     width: 85vw;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 } 
 
 #work-stuff h2 {
