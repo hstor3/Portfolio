@@ -122,7 +122,8 @@ a:hover {
 
 /* text description of my projects */
 #work-stuff p {
-    margin-bottom: 20px;
+    margin-top: 25px;
+    /* margin-bottom: 15px; */
     text-align: center;
 }
 
