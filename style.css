@@ -16,7 +16,6 @@ header {
     background-color: rgb(9, 63, 40);
     color:rgb(224, 219, 209);
     width: 100%;
-    
 }
 
 /* name on top of screen */
@@ -30,6 +29,7 @@ header h1 {
 
 /* list of button page sections */
 header nav ul {
+    list-style: none;
     list-style-type: none;
     text-decoration: none;
     text-align: right;
@@ -62,7 +62,7 @@ a:hover {
     display: block;
     border-radius: 5vw;
     max-width: 100%;
-    width: 45%;
+    width: 35%;
 
 }
 
@@ -118,6 +118,11 @@ a:hover {
     margin-left: -1rem;
     margin-right: -1rem;
     border-radius: 2%;
+    max-width: 100%;
+}
+
+.skilift img {
+    width: 100%;
     max-width: 100%;
 }
 
